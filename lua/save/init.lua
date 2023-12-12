@@ -15,7 +15,7 @@ M.cmds = {
   },
   {
     name = 'last command',
-    cmd = function() vim.cmd('silent! @: |echo "last commmand executed"') end
+    cmd = function() vim.cmd('silent! @: |echo "last command executed"') end
   },
 }
 
